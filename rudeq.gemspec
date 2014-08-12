@@ -9,13 +9,13 @@ Gem::Specification.new do |s|
   s.has_rdoc = true
   s.authors = ["Matthew Rudy Jacobs"]
   s.files = [
-    "README", "Rakefile", "MIT-LICENSE",
+    "README.md", "Rakefile", "MIT-LICENSE",
     
     "lib/rude_q/worker.rb", "lib/rude_q/scope.rb", "lib/rude_q.rb",
     
     "generators/rude_q/templates/rude_q_model.rb", "generators/rude_q/templates/rude_q_model_spec.rb", "generators/rude_q/templates/rude_q_migration.rb", "generators/rude_q/rude_q_generator.rb", "generators/rude_q/USAGE",
 
-    "spec/spec.opts", "spec/worker_spec.rb", "spec/spec_helper.rb", "spec/database.yml", "spec/rude_q_spec.rb", "spec/models/rude_queue.rb", "spec/models/something.rb", "spec/schema.rb",
+    "spec/worker_spec.rb", "spec/spec_helper.rb", "spec/database.yml", "spec/rude_q_spec.rb", "spec/models/rude_queue.rb", "spec/models/something.rb", "spec/schema.rb",
 
     "tasks/rude_q_tasks.rake"
   ]
