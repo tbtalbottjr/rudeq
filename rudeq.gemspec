@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   ]
 
   s.test_files = ["spec/rude_q_spec.rb", "spec/worker_spec.rb"]
-  s.rdoc_options = ["--main", "README"]
-  s.extra_rdoc_files = ["README"]
+  s.rdoc_options = ["--main", "README.md"]
+  s.extra_rdoc_files = ["README.md"]
   s.add_dependency("activerecord")
 end
